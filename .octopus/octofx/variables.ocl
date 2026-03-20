@@ -79,4 +79,11 @@ variable "Test" {
             required = true
         }
     }
+
+    value {
+        prompt {
+            description = ""
+            label = "Test?"
+        }
+    }
 }
