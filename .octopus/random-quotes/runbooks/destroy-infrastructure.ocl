@@ -1,4 +1,4 @@
-name = "Destroy Infrastructure"
+name = "💣 Destroy Infrastructure"
 default_guided_failure_mode = "EnvironmentDefault"
 description = <<-EOT
         Destroy infrastructure that isn't needed anymore.
