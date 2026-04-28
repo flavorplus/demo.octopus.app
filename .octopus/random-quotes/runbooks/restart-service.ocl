@@ -1,4 +1,4 @@
-name = "Restart service"
+name = "🔁 Restart service"
 default_guided_failure_mode = "EnvironmentDefault"
 description = ""
 multi_tenancy_mode = "Tenanted"
