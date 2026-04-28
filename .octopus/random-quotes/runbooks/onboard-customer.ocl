@@ -1,4 +1,4 @@
-name = "Onboard Customer"
+name = "🧑‍💻 Onboard Customer"
 default_guided_failure_mode = "EnvironmentDefault"
 description = <<-EOT
         Create and configure customer infrastructure.
