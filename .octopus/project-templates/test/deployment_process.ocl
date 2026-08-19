@@ -1,5 +1,13 @@
-process_template "run-a-process-template" {
-    name = "Run a Process Template"
-    process_template_slug = "deploy-database-via-dbup"
-    version_mask = "1.X"
+step "run-a-script" {
+    name = "Run a Script"
+
+    action {
+        action_type = "Octopus.Script"
+        properties = {
+            Octopus.Action.RunOnServer = "false"
+            Octopus.Action.Script.ScriptSource = "Inline"
+            Octopus.Action.Script.Syntax = "PowerShell"
+        }
+        worker_pool_variable = ""
+    }
 }
